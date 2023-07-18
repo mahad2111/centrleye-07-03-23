@@ -82,3 +82,71 @@
     background-color:  rgb(255, 255, 255);
     margin-bottom: 5%;
   }
+
+
+  @media (max-width: 480px) {
+    .userlogin {
+      flex-direction: column;
+    }
+
+    .signin,
+    .signup {
+      flex-basis: 100%;
+    }
+  }
+
+  /* Responsive styles for screen size >= 481px and <= 768px */
+  @media (min-width: 481px) and (max-width: 768px) {
+    .userlogin {
+      flex-direction: column;
+    }
+
+    .signin,
+    .signup {
+      flex-basis: 100%;
+    }
+
+    h1 {
+      font-size: 24px;
+    }
+
+    .btnsignup {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+  }
+
+  /* Responsive styles for screen size >= 769px and <= 1024px */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .userlogin {
+      flex-wrap: wrap;
+    }
+
+    .signin,
+    .signup {
+      flex-basis: 48%;
+    }
+  }
+
+  /* Responsive styles for screen size >= 1025px */
+  @media (min-width: 1025px) {
+    .userlogin {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px;
+    }
+
+    .signin,
+    .signup {
+      flex-basis: 40%;
+    }
+
+    h1 {
+      font-size: 36px;
+    }
+
+    .btnsignup {
+      padding: 20px 40px;
+      font-size: 24px;
+    }
+  }

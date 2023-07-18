@@ -10,7 +10,7 @@ const Search = () => {
 <form>
 <div class="search-location">
     <p>Location</p>
-    <input type="text" placeholder="City?"/>
+    <input type="text" placeholder="City?" />
   </div>
   <div class="search-events">
         <p>Events</p>
@@ -20,6 +20,7 @@ const Search = () => {
         <p>Categories</p>
     <input type="text" placeholder="Florist,Photographer,etc.."/>
   </div>
+  {/* <button onClick={handleClick}>Search</button>; */}
       </form>
     </div>
     </div>

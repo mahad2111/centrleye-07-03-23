@@ -14,6 +14,7 @@ import SocialEvents from "../images/group.png"
 import BusinessEvents from "../images/cooperation.png"
 import SeasonalEvents from "../images/christmas-decorations.png"
 import MarketingPicture from "../images/Event-planning-guide-illustration-featured-605x366.png"
+import Ad from './Ad';
 
 
 
@@ -24,27 +25,19 @@ const Home = () => {
 <Faq />
 <div className='home'>
   <div className='ad1'>
+  <Ad dataAdSlot='' />
     <h3>*(AD SPACE)*</h3>
   </div>
-
   <div className='home1'>
 
     <hr className='hr1'></hr>
    <p>
     Search by events...
    </p>
-
-
   </div>
   <div className="events-text-home">
   <div className="events-text">
 <h5>From Concept to Execution, We've Got You Covered.</h5>
-
-
-
-
-
-
   </div>
   <div className='events-home'>
   <div className='events'>
@@ -92,6 +85,7 @@ const Home = () => {
 </div>
 <Reviews />
 <div className='ad1'>
+<Ad dataAdSlot='X7XXXXXX5X' />
     <h3>*(AD SPACE)*</h3>
   </div>
 
@@ -102,3 +96,4 @@ const Home = () => {
 };
 
 export default Home;
+
