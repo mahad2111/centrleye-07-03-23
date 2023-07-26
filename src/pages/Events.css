@@ -318,3 +318,84 @@
     margin-left: 11%;
     
   }
+
+  @media (max-width: 480px) {
+    .eventplanningimg{
+      height: 21%;
+      width: 101%;
+   margin-left: -0.1% ;
+    }
+    .eventspagehead h1{
+      font-size: 20px;
+    }
+    .eventspagehead h3{
+      font-size: 10px;
+    }
+    .events-btn{
+      font-size: 5px;
+      width: 30%;
+      height: 10%;
+    }
+    .wrapper{
+      height: 50%;
+      margin-top: 20% !important;
+    }
+    .wrapper .search_box{
+      width: 90%;
+  margin-left: -24%;
+ 
+      margin-top: 5% !important;
+    }
+    .default_option{
+    margin-right: 25%;
+    margin-top: -2%;
+    }
+
+    .events-cat{
+      width: 100%;
+      margin-left: -0.1%;
+      height: 500px;
+
+    }
+    .events-cat h1{
+  font-size: 40px;
+    }
+    .events-cat h4{
+      font-size: 10px;
+    }
+    
+    .cat-1, .cat-2, .cat-3, .cat-4, .cat-5, .cat-6{
+      display: block;
+     
+    }
+    .cat-text h3{
+  font-size: 10px ;
+    }
+    .cat-text h5{
+    display: none;
+    }
+    .cat-image{
+      width: 50%;
+      margin-left: 20%;
+      margin-top: 30%;
+    }
+    .cat-text{
+       text-align: center;
+       margin-left: 12%;
+    }
+  }
+  
+ 
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+  }
+  
+ 
+  @media (min-width: 1025px) and (max-width: 1280px) {
+   
+  }
+  
+ 
+  @media (min-width: 1281px) {
+   
+  }
