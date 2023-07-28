@@ -113,3 +113,40 @@
   .text3 h2{
     margin-left: 15%;
   }
+  @media (max-width: 480px) {
+    .faqtext h2{
+      font-size: 15px;
+      width: 100px;
+    }
+    .faqtext h5{
+      font-size: 10px;
+  
+  }
+  .events-text-home{
+    display: block;
+  }
+  .events-text{
+    width: 80%;
+  }
+  .text-picture-marketing{
+    font-size: 85%;
+  }
+  #btn-marketing{
+    width: 50px;
+    margin-top: 15px;
+  }
+}
+ 
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+  }
+  
+ 
+  @media (min-width: 1025px) and (max-width: 1280px) {
+   
+  }
+  
+ 
+  @media (min-width: 1281px) {
+   
+  }

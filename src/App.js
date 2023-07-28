@@ -10,6 +10,7 @@ import Events from "./pages/Events";
 
 export default function App() {
   return (
+    <div className="App">
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
@@ -22,5 +23,6 @@ export default function App() {
         </Route>
       </Routes>
     </BrowserRouter>
+    </div>
   );
 }

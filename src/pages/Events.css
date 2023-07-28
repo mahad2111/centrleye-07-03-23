@@ -343,8 +343,13 @@
     .wrapper .search_box{
       width: 90%;
   margin-left: -24%;
+  height: 50px;
  
       margin-top: 5% !important;
+    }
+
+    .search_box{
+  
     }
     .default_option{
     margin-right: 25%;
@@ -383,6 +388,15 @@
        text-align: center;
        margin-left: 12%;
     }
+   .{
+      width: 50%;
+    }
+   .see-more-review-2 h2{
+   margin-left: 12%;
+   }
+   .see-more-2{
+    margin-left:35% ;
+   }
   }
   
  

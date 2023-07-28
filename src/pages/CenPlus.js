@@ -5,7 +5,7 @@ const CenPlus = () => {
   return <>
     <div className="cenplus">
  <h1>CentrlEye+</h1>
- <h3>Enjoy exclusive services with CentrlEye+ starting today</h3>
+ <h3>Enjoy exclusive services with CentrlEye+ starting today(Coming Soon)</h3>
  <section class="pricing-tables content-area">
     <div class="container">
         <div class="main-title text-center">

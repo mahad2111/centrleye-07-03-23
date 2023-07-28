@@ -173,4 +173,22 @@ body{
   
   }
   
- 
+@media (max-width: 480px) {
+  .music-events, .sporting-events, .cultural-events {
+   width: 130px;
+   margin-right: 0;
+   height: 200px;
+   margin-left: 3.8%;
+   }
+   .events-home{
+    margin-left: -45%;
+   }
+   .social-events, .buisness-events,.seasonal-events{
+   margin-left: 3.8%;
+   width: 130px;
+   
+   }
+   .seasonal-events{
+    
+   }
+  }
